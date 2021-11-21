@@ -10,10 +10,6 @@ public class DireccionTest {
 	
 	private static final String ERROR_DIRECCION_NO_VALIDA = "ERROR: La dirección no es válida.";
 	
-	public enum Direccion
-	{
-		ARRIBA, ABAJO, IZQUIERDA, DERECHA, ENROQUE_CORTO, ENROQUE_LARGO;
-	}
 	@Test
 	public void nombresValidosDireccionesCreanDireccionesValidas() {
 		Direccion direccion;
