@@ -9,7 +9,11 @@ import org.junit.Test;
 public class ColorTest {
 	
 	private static final String ERROR_COLOR_NO_VALIDO = "ERROR: El color no es válido.";
-
+	
+	public enum Color
+	{
+	BLANCO, NEGRO;
+	}
 	@Test
 	public void nombresValidosColoresCreanColoresValidos() {
 		Color color;
