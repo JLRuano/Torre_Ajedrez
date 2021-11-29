@@ -20,7 +20,7 @@ public class Posicion {
 		
 		
 		//	if ( !validaPosicion() )
-		//		throw new IllegalArgumentException("ERROR. posicion no v·lida.");
+		//		throw new IllegalArgumentException("ERROR. posicion no v√°lida.");
 		}
 
 		//Constructor Copia (apartado 8)
@@ -58,11 +58,11 @@ public class Posicion {
 	
 	{
 		if (fila <1 || fila >8) {
-			throw new IllegalArgumentException ("error, fila no v·lida.");
+			throw new IllegalArgumentException ("error, fila no v√°lida.");
 			}	
 	
 	if (columna <'a' || columna > 'h')  {
-		throw new IllegalArgumentException ("error, columna no v·lida.");
+		throw new IllegalArgumentException ("error, columna no v√°lida.");
 		}
 	}
 
@@ -101,3 +101,4 @@ public class Posicion {
 	
 	
 
+.
